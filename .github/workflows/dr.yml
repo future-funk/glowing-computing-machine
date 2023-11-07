@@ -6,7 +6,7 @@ permissions:
 
 jobs:
   dependency-review:
-    runs-on: actions-runner
+    runs-on: action-runner
     steps:
       - name: 'Checkout Repository'
         uses: actions/checkout@v4
